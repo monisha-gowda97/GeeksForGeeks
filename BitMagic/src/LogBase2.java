@@ -6,7 +6,7 @@ public class LogBase2 {
         System.out.println(findLog(scanner.nextInt()));
     }
 
-    private static int findLog(int number){
+    public static int findLog(int number){
         int answer=0;
         // right shift by 1 till number becomes 0
         while((number>>=1)!=0){
